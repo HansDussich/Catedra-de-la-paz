@@ -15,7 +15,7 @@ const galeriaItems = [
   {
     id: "2",
     title: "El Contexto Histórico",
-    description: "El conflicto armado interno en Perú y sus consecuencias en la población civil de Trujillo.",
+    description: "El conflicto armado en Colombia y sus consecuencias en la población civil de Trujillo, Valle del Cauca.",
     imageSrc: "/placeholder.svg",
     type: "galeria"
   },
@@ -59,7 +59,7 @@ const GaleriaPage = () => {
             <h1 className="text-4xl font-playfair font-bold mb-4 text-museo-negro">Galería de Memorias</h1>
             <p className="text-lg text-museo-gris max-w-3xl mx-auto">
               Explorar las diferentes perspectivas, testimonios y documentos históricos relacionados 
-              con la masacre de El Milagro.
+              con la masacre de El Milagro, Trujillo, Valle del Cauca.
             </p>
           </div>
           
