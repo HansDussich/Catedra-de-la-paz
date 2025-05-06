@@ -11,7 +11,7 @@ const testimonios = [
   },
   {
     id: "2",
-    cita: "\"Nos acusaron sin pruebas. A día de hoy, más de 30 años después, sigo luchando para limpiar su nombre.\"",
+    cita: "\"Nos acusaron de colaborar con la guerrilla sin ninguna prueba. A día de hoy, más de 30 años después, sigo luchando para limpiar su nombre.\"",
     autor: "Carlos R., hermano de víctima"
   }
 ];

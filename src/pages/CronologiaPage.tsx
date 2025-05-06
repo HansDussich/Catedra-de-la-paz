@@ -2,58 +2,58 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-// Datos de muestra para la cronología completa
+// Datos de la cronología actualizada para Trujillo, Valle del Cauca, Colombia
 const timelineEvents = [
   {
-    year: "1980",
-    title: "Inicio del Conflicto Armado Interno",
-    description: "El grupo Sendero Luminoso inicia su lucha armada contra el Estado peruano, declarando una 'guerra popular'.",
-  },
-  {
-    year: "1983-1984",
-    title: "Escalada de la Violencia",
-    description: "El conflicto se intensifica con la entrada de las Fuerzas Armadas a las zonas de emergencia.",
+    year: "1980s",
+    title: "Inicio del Conflicto Armado",
+    description: "Colombia atraviesa un periodo de violencia intensificada con la presencia de grupos guerrilleros, paramilitares y narcotraficantes en varias regiones del país.",
   },
   {
     year: "1986-1987",
-    title: "Expansión del Conflicto",
-    description: "La violencia política se extiende a más regiones del país, incluyendo la costa norte.",
-  },
-  {
-    year: "1988",
-    title: "Masacre de El Milagro",
-    description: "En el distrito de El Milagro, Trujillo, fuerzas del Estado realizan ejecuciones extrajudiciales de jóvenes acusados sin pruebas de vínculos con la subversión.",
-    destacado: true,
+    title: "Escalada de la Violencia en el Valle del Cauca",
+    description: "La región del Valle del Cauca, incluyendo Trujillo, comienza a sufrir la violencia relacionada con el narcotráfico y la lucha territorial entre diversos actores armados.",
   },
   {
     year: "1988-1990",
-    title: "Impunidad Inicial",
-    description: "Las denuncias realizadas por familiares son ignoradas por las autoridades en un contexto de normalización de la violencia.",
+    title: "Masacre de Trujillo",
+    description: "En el municipio de Trujillo, Valle del Cauca, se inicia una serie de asesinatos selectivos, desapariciones forzadas y actos de tortura contra la población civil, perpetrados por una alianza entre narcotraficantes, paramilitares y miembros de la fuerza pública.",
+    destacado: true,
   },
   {
-    year: "1992",
-    title: "Captura de Abimael Guzmán",
-    description: "El líder de Sendero Luminoso es capturado, marcando un punto de inflexión en el conflicto.",
+    year: "1990-1991",
+    title: "Continuación de la Violencia",
+    description: "Los asesinatos y desapariciones continúan en Trujillo, alcanzando su punto más crítico con la desaparición y posterior asesinato del padre Tiberio Fernández y tres acompañantes.",
   },
   {
-    year: "1995-2000",
-    title: "Creación de Organizaciones de Víctimas",
-    description: "Se forman asociaciones de familiares que buscan verdad y justicia por los crímenes cometidos durante el conflicto.",
+    year: "1994-1995",
+    title: "Primera Comisión de Investigación",
+    description: "Se conforma una Comisión de Investigación que documenta los hechos ocurridos en Trujillo, presionada por organizaciones de derechos humanos.",
   },
   {
-    year: "2001-2003",
-    title: "Comisión de la Verdad y Reconciliación",
-    description: "Se crea la CVR para investigar los crímenes y violaciones a los derechos humanos cometidos durante el conflicto armado interno.",
+    year: "1995",
+    title: "Reconocimiento de Responsabilidad Estatal",
+    description: "El presidente Ernesto Samper reconoce la responsabilidad del Estado colombiano en los hechos y se compromete a una reparación integral.",
   },
   {
-    year: "2003",
-    title: "Informe Final de la CVR",
-    description: "Se publica el informe que documenta los crímenes cometidos, incluyendo las masacres como la de El Milagro.",
+    year: "1997",
+    title: "Formación de AFAVIT",
+    description: "Se crea la Asociación de Familiares de Víctimas de Trujillo (AFAVIT), organización clave en la lucha por memoria, verdad y justicia.",
   },
   {
-    year: "2005-presente",
-    title: "Búsqueda de Justicia",
-    description: "Continúan los procesos legales y la lucha de los familiares por obtener justicia y reconocimiento.",
+    year: "2000-2005",
+    title: "Construcción del Parque Monumento",
+    description: "Se diseña y construye el Parque Monumento en memoria de las víctimas, convertido en símbolo de resistencia y memoria colectiva.",
+  },
+  {
+    year: "2008",
+    title: "Informe del Centro Nacional de Memoria Histórica",
+    description: "El CNMH publica el informe 'Trujillo: una tragedia que no cesa', documentando a profundidad los hechos ocurridos.",
+  },
+  {
+    year: "2010-presente",
+    title: "Búsqueda Continua de Justicia",
+    description: "Continúan los procesos judiciales y la lucha contra la impunidad, mientras se fortalecen las iniciativas de memoria histórica.",
   },
 ];
 

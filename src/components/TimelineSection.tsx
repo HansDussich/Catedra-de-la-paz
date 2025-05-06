@@ -4,24 +4,24 @@ import { Link } from "react-router-dom";
 // Datos de muestra para la línea de tiempo
 const timelineEvents = [
   {
-    year: "1980",
-    title: "Inicio del Conflicto Armado",
-    description: "El grupo Sendero Luminoso inicia su lucha armada contra el Estado peruano."
+    year: "1980s",
+    title: "Inicio del Conflicto Intensificado",
+    description: "Colombia sufre una escalada de violencia con múltiples actores armados en disputa."
   },
   {
-    year: "1988",
-    title: "Masacre de El Milagro",
-    description: "Fuerzas estatales realizan ejecuciones extrajudiciales en el distrito de El Milagro, Trujillo."
+    year: "1988-1994",
+    title: "Masacre de Trujillo",
+    description: "Serie de homicidios y desapariciones forzadas en Trujillo, Valle del Cauca, perpetrados por una alianza criminal."
   },
   {
-    year: "1990s",
-    title: "Búsqueda de Justicia",
-    description: "Familiares de las víctimas comienzan a organizarse para exigir verdad y justicia."
+    year: "1995",
+    title: "Reconocimiento Estatal",
+    description: "El Estado colombiano reconoce su responsabilidad y se compromete a la reparación de las víctimas."
   },
   {
     year: "2000s",
-    title: "Comisión de la Verdad",
-    description: "La Comisión de la Verdad y Reconciliación investiga los crímenes del conflicto armado interno."
+    title: "Memoria y Reparación",
+    description: "Construcción del Parque Monumento y fortalecimiento de iniciativas de memoria histórica."
   }
 ];
 
@@ -34,7 +34,7 @@ const TimelineSection = () => {
             Cronología Histórica
           </h2>
           <p className="mt-3 text-museo-gris max-w-2xl mx-auto">
-            Los principales acontecimientos relacionados con la masacre de El Milagro y su contexto histórico.
+            Los principales acontecimientos relacionados con la masacre de Trujillo y su contexto histórico.
           </p>
         </div>
         

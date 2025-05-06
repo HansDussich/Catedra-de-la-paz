@@ -11,14 +11,14 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-[url('/lovable-uploads/f2794358-3211-4470-8eea-987a5e9f5c71.png')] bg-cover bg-center opacity-20"></div>
       <div className="museo-container relative z-10 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold mb-6 text-museo-negro">
-          Memoria del Milagro
+          Memoria de Trujillo
         </h1>
         <h2 className="text-xl md:text-2xl lg:text-3xl font-playfair text-museo-gris mb-8">
           Un espacio para no olvidar
         </h2>
         <p className="max-w-2xl mx-auto text-lg text-museo-gris mb-10">
-          Un museo digital en homenaje a las víctimas de la masacre de El Milagro, 
-          Trujillo, 1988
+          Un museo digital en homenaje a las víctimas de la masacre de Trujillo, 
+          Valle del Cauca, Colombia, 1988-1994
         </p>
         <button
           onClick={scrollToContent}

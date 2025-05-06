@@ -7,7 +7,7 @@ import MemoryCard from "@/components/MemoryCard";
 const galeriaItems = [
   {
     id: "1",
-    title: "Los Rostros del Milagro",
+    title: "Los Rostros de Trujillo",
     description: "Fotografías y semblanzas de las víctimas de la masacre, preservando su memoria y humanidad.",
     imageSrc: "/placeholder.svg",
     type: "galeria"
@@ -21,8 +21,8 @@ const galeriaItems = [
   },
   {
     id: "3",
-    title: "El Distrito del Milagro",
-    description: "Historia y características del distrito donde ocurrieron los hechos.",
+    title: "El Municipio de Trujillo",
+    description: "Historia y características del municipio donde ocurrieron los hechos.",
     imageSrc: "/placeholder.svg",
     type: "galeria"
   },
@@ -42,8 +42,8 @@ const galeriaItems = [
   },
   {
     id: "6",
-    title: "Manifestaciones y Conmemoraciones",
-    description: "Cómo la comunidad ha mantenido viva la memoria a lo largo de los años.",
+    title: "Parque Monumento",
+    description: "El lugar de memoria construido para honrar a las víctimas y mantener vivo su recuerdo.",
     imageSrc: "/placeholder.svg",
     type: "galeria"
   }
@@ -59,7 +59,7 @@ const GaleriaPage = () => {
             <h1 className="text-4xl font-playfair font-bold mb-4 text-museo-negro">Galería de Memorias</h1>
             <p className="text-lg text-museo-gris max-w-3xl mx-auto">
               Explorar las diferentes perspectivas, testimonios y documentos históricos relacionados 
-              con la masacre de El Milagro, Trujillo, Valle del Cauca.
+              con la masacre de Trujillo, Valle del Cauca, Colombia.
             </p>
           </div>
           

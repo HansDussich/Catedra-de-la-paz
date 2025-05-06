@@ -5,24 +5,24 @@ const IntroductionSection = () => {
       <div className="museo-container">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-playfair font-bold mb-6 text-museo-negro text-center">
-            La Masacre de El Milagro
+            La Masacre de Trujillo
           </h2>
           
           <div className="prose prose-lg mx-auto">
             <p className="mb-4 text-museo-gris">
-              En 1988, en el contexto del conflicto armado interno en el Perú, en el distrito de El Milagro, Trujillo,
-              fuerzas del Estado cometieron una masacre contra jóvenes que fueron acusados sin pruebas de tener vínculos
-              con grupos subversivos.
+              Entre 1988 y 1994, en el contexto del conflicto armado colombiano, en el municipio de Trujillo, Valle del Cauca,
+              se cometió una serie de homicidios, torturas y desapariciones forzadas contra la población civil, perpetrados por una alianza
+              entre narcotraficantes, paramilitares y miembros de la fuerza pública.
             </p>
             
             <p className="mb-4 text-museo-gris">
-              Este hecho, que permanece en la memoria colectiva de la ciudad, fue parte de una serie de violaciones a los 
-              derechos humanos que ocurrieron durante esta época oscura de la historia peruana.
+              Este hecho, que permanece en la memoria colectiva de la región, es uno de los emblemas de la violencia sociopolítica
+              que ha marcado la historia reciente de Colombia, dejando más de 340 víctimas documentadas.
             </p>
             
             <p className="mb-8 text-museo-gris">
               Este espacio digital busca preservar la memoria de estos acontecimientos, educar a las nuevas generaciones y 
-              rendir un homenaje a las víctimas, como parte de un proceso necesario de memoria, verdad y justicia.
+              rendir un homenaje a las víctimas, como parte de un proceso necesario de memoria, verdad, justicia y no repetición.
             </p>
             
             <div className="border-l-4 border-museo-naranja pl-4 italic">

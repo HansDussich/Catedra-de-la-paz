@@ -4,14 +4,14 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Quote, Search } from "lucide-react";
 
-// Datos de muestra para testimonios
+// Datos de muestra para testimonios actualizados para el contexto colombiano
 const testimoniosCompletos = [
   {
     id: "1",
     nombre: "María L.",
     relacion: "Hermana de víctima",
     anio: "2003",
-    cita: "Aún recuerdo esa noche. Los gritos, el sonido de los disparos, el miedo. Mi hermano tenía solo 19 años cuando se lo llevaron. Era estudiante de ingeniería y trabajaba medio tiempo. Nunca tuvo vínculos con ningún grupo armado. Simplemente estaba en el lugar equivocado. Han pasado tantos años y el dolor sigue intacto.",
+    cita: "Aún recuerdo esa noche. Los gritos, el sonido de los disparos, el miedo. Mi hermano tenía solo 19 años cuando se lo llevaron. Era estudiante de bachillerato y trabajaba en una finca. Nunca estuvo involucrado con ningún grupo armado. Simplemente estaba en el lugar equivocado. Han pasado tantos años y el dolor sigue intacto.",
     categoria: "familiar"
   },
   {
@@ -19,15 +19,15 @@ const testimoniosCompletos = [
     nombre: "Carlos R.",
     relacion: "Hermano de víctima",
     anio: "2008",
-    cita: "Nos acusaron sin pruebas. A día de hoy, más de 30 años después, sigo luchando para limpiar su nombre. Mi hermano era un buen hombre, un padre de familia. Cuando ocurrió la masacre, dejó a dos niños pequeños que crecieron sin su padre. La justicia ha sido lenta y muchas veces inexistente.",
+    cita: "Nos acusaron de colaborar con la guerrilla sin ninguna prueba. A día de hoy, más de 30 años después, sigo luchando para limpiar su nombre. Mi hermano era un buen hombre, un padre de familia. Cuando ocurrió la masacre, dejó huérfanos a dos niños pequeños que crecieron preguntando por su padre.",
     categoria: "familiar"
   },
   {
     id: "3",
     nombre: "Jorge M.",
-    relacion: "Vecino de El Milagro",
+    relacion: "Vecino de Trujillo",
     anio: "2000",
-    cita: "Esa noche nadie durmió en el barrio. Se escuchaban disparos, gritos, llantos. Al día siguiente todo estaba en silencio, un silencio terrible. Nadie quería hablar por miedo. Todos sabíamos lo que había pasado, pero el miedo nos paralizó durante años.",
+    cita: "Esa noche nadie durmió en el pueblo. Se escuchaban vehículos, disparos, gritos. Al día siguiente todo estaba en silencio, un silencio terrible. Nadie quería hablar por miedo. Todos sabíamos lo que había pasado, pero el miedo nos paralizó durante años.",
     categoria: "testigo"
   },
   {
@@ -35,7 +35,7 @@ const testimoniosCompletos = [
     nombre: "Dra. Patricia S.",
     relacion: "Investigadora de Derechos Humanos",
     anio: "2015",
-    cita: "La masacre de El Milagro representa uno de los patrones de violencia estatal durante el conflicto armado interno: la criminalización de la juventud en zonas urbano-marginales. La estigmatización de estos jóvenes como 'terroristas' fue una justificación para acciones que violaban todo principio de derechos humanos y debido proceso.",
+    cita: "La masacre de Trujillo representa uno de los patrones de violencia del conflicto armado colombiano: la alianza entre narcotraficantes, paramilitares y agentes del Estado. La estigmatización de campesinos y líderes sociales como 'guerrilleros' fue la justificación para acciones que violaban todo principio de derechos humanos.",
     categoria: "experto"
   },
   {
@@ -43,7 +43,7 @@ const testimoniosCompletos = [
     nombre: "Luis V.",
     relacion: "Sobreviviente",
     anio: "2010",
-    cita: "Me salvé porque logré esconderme. Vi cómo se llevaban a mis amigos. No pude hacer nada. Viví con esa culpa durante años. Ahora entiendo que contar lo que vi es mi manera de honrar su memoria y buscar justicia para ellos.",
+    cita: "Me salvé porque logré escapar por el río Cauca. Vi cómo se llevaban a mis vecinos. No pude hacer nada. Viví con esa culpa durante años. Ahora entiendo que contar lo que vi es mi manera de honrar su memoria y buscar justicia para ellos.",
     categoria: "sobreviviente"
   },
   {
@@ -51,7 +51,7 @@ const testimoniosCompletos = [
     nombre: "Rosa T.",
     relacion: "Madre de víctima",
     anio: "2005",
-    cita: "Esperé a mi hijo toda la noche. Nunca regresó. Al día siguiente fui a buscarlo por todas las comisarías, por los hospitales, incluso por las morgues. Nadie me daba razón. Fue una semana después cuando encontramos su cuerpo. Toda madre sabe lo que es amar a un hijo, pero no todas saben lo que es perderlo así.",
+    cita: "Esperé a mi hijo toda la noche. Nunca regresó. Al día siguiente fui a buscarlo por la estación de policía, por el hospital, incluso pregunté a los militares. Nadie me daba razón. Pasaron semanas hasta que un pescador encontró restos en el río. Toda madre sabe lo que es amar a un hijo, pero no todas saben lo que es buscar sus restos en un río.",
     categoria: "familiar"
   }
 ];
