@@ -9,42 +9,42 @@ const galeriaItems = [
     id: "1",
     title: "Los Rostros de Trujillo",
     description: "Fotografías y semblanzas de las víctimas de la masacre, preservando su memoria y humanidad.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
     type: "galeria"
   },
   {
     id: "2",
     title: "El Contexto Histórico",
     description: "El conflicto armado en Colombia y sus consecuencias en la población civil de Trujillo, Valle del Cauca.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1518005020951-eccb494ad742",
     type: "galeria"
   },
   {
     id: "3",
     title: "El Municipio de Trujillo",
     description: "Historia y características del municipio donde ocurrieron los hechos.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
     type: "galeria"
   },
   {
     id: "4",
     title: "Documentos Históricos",
     description: "Recortes de periódicos, informes oficiales y otros documentos relacionados con la masacre.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81",
     type: "galeria"
   },
   {
     id: "5",
     title: "La Lucha por Justicia",
     description: "El arduo camino de los familiares y activistas en busca de verdad y reparación.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1466442929976-97f336a657be",
     type: "galeria"
   },
   {
     id: "6",
     title: "Parque Monumento",
     description: "El lugar de memoria construido para honrar a las víctimas y mantener vivo su recuerdo.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1433086966358-54859d0ed716",
     type: "galeria"
   }
 ];

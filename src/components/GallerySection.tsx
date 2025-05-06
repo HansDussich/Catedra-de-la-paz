@@ -8,21 +8,21 @@ const featuredMemories = [
     id: "1",
     title: "Los Rostros de Trujillo",
     description: "Fotografías y semblanzas de las víctimas de la masacre, preservando su memoria y humanidad.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1487958449943-2429e8be8625",
     type: "galeria"
   },
   {
     id: "2",
     title: "El Contexto Histórico",
     description: "El conflicto armado en Colombia y sus consecuencias en la población civil de Trujillo, Valle del Cauca.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1518005020951-eccb494ad742",
     type: "galeria"
   },
   {
     id: "3",
     title: "Testimonios de Sobrevivientes",
     description: "Relatos en primera persona de quienes vivieron los acontecimientos y sus consecuencias.",
-    imageSrc: "/placeholder.svg",
+    imageSrc: "https://images.unsplash.com/photo-1527576539890-dfa815648363",
     type: "testimonios"
   }
 ];
