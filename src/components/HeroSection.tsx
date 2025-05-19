@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <div className="relative h-[70vh] min-h-[500px] flex items-center bg-gradient-to-b from-museo-beige via-museo-beige to-white">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81')] bg-cover bg-center opacity-20"></div>
+      <div className="absolute inset-0 bg-[url('/img/img.png')] bg-cover bg-center opacity-20"></div>
       <div className="museo-container relative z-10 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold mb-6 text-museo-negro">
           Memoria de Trujillo

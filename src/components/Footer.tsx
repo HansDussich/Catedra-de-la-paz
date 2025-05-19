@@ -10,10 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-playfair text-xl font-semibold mb-4">Memoria del Milagro</h3>
-            <p className="text-sm text-gray-300 mb-4">
-              Un espacio digital para preservar la memoria histórica y honrar a las víctimas de la 
-              masacre de El Milagro ocurrida en Trujillo, Perú.
-            </p>
+            
           </div>
           
           <div>

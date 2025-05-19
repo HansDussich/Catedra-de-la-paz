@@ -44,6 +44,9 @@ const Navbar = () => {
             <Link to="/reflexion" className="text-museo-negro hover:text-museo-naranja transition-colors">
               Reflexión
             </Link>
+            <Link to="/monumento" className="text-museo-negro hover:text-museo-naranja transition-colors">
+              Monumento
+            </Link>
           </div>
         </div>
 
@@ -67,6 +70,9 @@ const Navbar = () => {
             </Link>
             <Link to="/reflexion" className="block py-2 text-museo-negro hover:text-museo-naranja" onClick={() => setIsOpen(false)}>
               Reflexión
+            </Link>
+            <Link to="/monumento" className="block py-2 text-museo-negro hover:text-museo-naranja" onClick={() => setIsOpen(false)}>
+              Monumento
             </Link>
           </div>
         )}

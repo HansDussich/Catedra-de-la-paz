@@ -2,7 +2,7 @@
 const IntroductionSection = () => {
   return (
     <section id="main-content" className="museo-section bg-white relative">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1487958449943-2429e8be8625')] bg-cover bg-center opacity-5"></div>
+      <div className="absolute inset-0 bg-[url('/img/img.png')] bg-cover bg-center opacity-5"></div>
       <div className="museo-container relative z-10">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-playfair font-bold mb-6 text-museo-negro text-center">

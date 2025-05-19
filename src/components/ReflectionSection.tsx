@@ -20,9 +20,7 @@ const ReflectionSection = () => {
               "La memoria es un acto de justicia. Olvidar es permitir que los errores del pasado se repitan en el futuro."
             </p>
             
-            <p className="text-museo-azul">
-              — Comisión de la Verdad y Reconciliación del Perú
-            </p>
+            
           </div>
           
           <Link
